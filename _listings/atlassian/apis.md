@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlass
 x-kinRank: "8"
 x-alexaRank: "1656"
 tags: Votes
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
@@ -279,6 +279,62 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/atlassian/api2permissionscheme-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/atlassian/api2permissionscheme-get-openapi.md
+- name: Jira Cloud REST API - Remove vote
+  x-api-slug: api2issueissueidorkeyvotes-delete
+  description: Removes a current user's vote from an issue (aka "unvote").
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/atlassian/api2issueissueidorkeyvotes-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/atlassian/api2issueissueidorkeyvotes-delete-openapi.md
+- name: Jira Cloud REST API - Remove vote
+  x-api-slug: api2issueissueidorkeyvotes-delete
+  description: Removes a current user's vote from an issue (aka "unvote").
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/atlassian/api2issueissueidorkeyvotes-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/atlassian/api2issueissueidorkeyvotes-delete-openapi.md
+- name: Jira Cloud REST API - Add vote
+  x-api-slug: api2issueissueidorkeyvotes-post
+  description: Adds a vote on the issue for a current user.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/atlassian/api2issueissueidorkeyvotes-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/atlassian/api2issueissueidorkeyvotes-post-openapi.md
+- name: Jira Cloud REST API - Add vote
+  x-api-slug: api2issueissueidorkeyvotes-post
+  description: Adds a vote on the issue for a current user.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/atlassian/api2issueissueidorkeyvotes-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/atlassian/api2issueissueidorkeyvotes-post-openapi.md
 x-common:
 - type: x-openapi
   url: https://developer.atlassian.com/cloud/jira/platform/swagger.v3.json

@@ -1,0 +1,223 @@
+{
+	"name": "Streadata.io API Gallery - Votes",
+	"description": "This is a repository of votes APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/votes.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://votes.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Disqus",
+			"x-api-slug": "disqus",
+			"description": "Disqus offers the best add-on tools for websites to increase engagement. We help publishers power online discussions with comments and earn revenue with native advertising.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg",
+			"humanURL": "https://disqus.com/",
+			"baseURL": "https:///",
+			"tags": "Votes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/disqus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Votes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plivo",
+			"x-api-slug": "plivo",
+			"description": "Voice & SMS API Platform: Plivo enables businesses and developers to tap into powerful Voice and SMS capabilities without carrier lock-in.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg",
+			"humanURL": "http:///account",
+			"baseURL": "https:///",
+			"tags": "Votes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/plivo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cicero Team",
+			"x-api-slug": "cicero-team",
+			"description": "Cicero is a comprehensive database of elected officials and legislative districts. Cicero enables you to match constituents with their representatives based on address-level data, leading to endless possibilities.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/10247-cicero-team.jpg",
+			"humanURL": "https://www.cicerodata.com/",
+			"baseURL": "https:///",
+			"tags": "Votes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/cicero-team/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bitbucket",
+			"x-api-slug": "bitbucket",
+			"description": "Collaborate on code with inline comments and pull requests. Manage and share your Git repositories to build and ship software, as a team.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg",
+			"humanURL": "http://bitbucket.org",
+			"baseURL": "https://api.bitbucket.org//2.0",
+			"tags": "Votes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/bitbucket/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Civic Information",
+			"x-api-slug": "google-civic-information",
+			"description": "The Google Civic Information API lets developers build applications that display civic information to their users. For any U.S. residential address, you can look up who represents that address at each elected level of government. During supported elections, you can also look up polling places, early vote location, candidate data, and other election official information.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-civic-information-api.png",
+			"humanURL": "https://developers.google.com/civic-information/",
+			"baseURL": "://www.googleapis.com//civicinfo/v2",
+			"tags": "Votes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/google-civic-information/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lisk",
+			"x-api-slug": "lisk",
+			"description": "Lisk makes it easy for developers to build and deploy blockchain applications in JavaScript. Join the leading platform for world-changing dapps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26631-lisk.jpg",
+			"humanURL": "https://lisk.io",
+			"baseURL": "https:////api",
+			"tags": "Votes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/lisk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Steem",
+			"x-api-slug": "steem",
+			"description": "A new way for publishers to monetize their online content and community, based on battle-tested blockchain technology.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-steemit.jpg",
+			"humanURL": "http://steemit.com",
+			"baseURL": "https://api.steemjs.com//",
+			"tags": "Votes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/steem/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Trello",
+			"x-api-slug": "trello",
+			"description": "Trusted by millions, Trello is the visual collaboration tool that creates a shared perspective on any project. Trello&rsquo;s boards, lists and cards enable you to organize and prioritize your personal and work life in a fun, flexible and rewarding way.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png",
+			"humanURL": "http://trello.com",
+			"baseURL": "https://trello.com//1",
+			"tags": "Votes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/trello/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TVmaze",
+			"x-api-slug": "tvmaze",
+			"description": "Founded in 2014, TVmaze is the leading tv meta-data provider on the web. Serving hundreds of apps and services accoss the web. Providing management tools for users to keep track of their favorite shows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tvm-header-logo.png",
+			"humanURL": "http://www.tvmaze.com",
+			"baseURL": "https://api.tvmaze.com//v1",
+			"tags": "Votes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/tvmaze/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RipaEx",
+			"x-api-slug": "ripaex",
+			"description": "Ripa Exchange is an hybrid-decentralized exchange with a strong focus on lowering the entry level for opening new exchanges and giving crypto traders safe and secure trading partners to operate on a daily basis.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28880-ripaex-io.jpg",
+			"humanURL": "http://www.ripaex.io",
+			"baseURL": "https://api.ripaex.io//",
+			"tags": "Votes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/ripaex/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Votes",
+	"include": [
+		{
+			"name": "Disqus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/disqus/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "Plivo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/plivo/apis.yaml"
+		},
+		{
+			"name": "Cicero Team",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/cicero-team/apis.yaml"
+		},
+		{
+			"name": "Bitbucket",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/bitbucket/apis.yaml"
+		},
+		{
+			"name": "Google Civic Information",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/google-civic-information/apis.yaml"
+		},
+		{
+			"name": "Lisk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/lisk/apis.yaml"
+		},
+		{
+			"name": "Steem",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/steem/apis.yaml"
+		},
+		{
+			"name": "Trello",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/trello/apis.yaml"
+		},
+		{
+			"name": "TVmaze",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/tvmaze/apis.yaml"
+		},
+		{
+			"name": "RipaEx",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/ripaex/apis.yaml"
+		}
+	]
+}

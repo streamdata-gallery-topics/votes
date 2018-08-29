@@ -7,11 +7,59 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo
 x-kinRank: "8"
 x-alexaRank: "130970"
 tags: Votes
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/plivo/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Codenvy Account API - Get Photos Votes
+  x-api-slug: photosidvotes-get
+  description: Returns all users that had liked this photo.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/plivo/photosidvotes-get-openapi.md
+- name: Codenvy Account API - Post Photos Vote
+  x-api-slug: photosidvote-post
+  description: Allows the user to vote for a photo.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/plivo/photosidvote-post-openapi.md
+- name: Codenvy Account API - Post Photos Vote
+  x-api-slug: photosidvote-post
+  description: Allows the user to vote for a photo.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/plivo/photosidvote-post-openapi.md
+- name: Codenvy Account API - Post Photos Vote
+  x-api-slug: photosidvote-post
+  description: Allows the user to vote for a photo.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: :///account/https://codenvy.com/api
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/plivo/photosidvote-post-openapi.md
 x-common:
 - type: x--net-library
   url: https://www.plivo.com/docs/helpers/dotnet/

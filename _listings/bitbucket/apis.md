@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitb
 x-kinRank: "8"
 x-alexaRank: "901"
 tags: Votes
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/bitbucket/apis.md
 specificationVersion: "0.14"
 apis:
@@ -130,6 +130,65 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idvote-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idvote-put-openapi.md
+- name: Bitbucket - Update Repositories Username Repo Slug Issues Issue  Vote
+  x-api-slug: repositoriesusernamerepo-slugissuesissue-idvote-put
+  description: |-
+    Vote for this issue.
+
+    To cast your vote, do an empty PUT. The 204 status code indicates that
+    the operation was successful.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idvote-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idvote-put-openapi.md
+- name: Bitbucket - Parameters Repositories Username Repo Slug Issues Issue  Vote
+  x-api-slug: repositoriesusernamerepo-slugissuesissue-idvote-parameters
+  description: Parameters repositories username repo slug issues issue  vote
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idvote-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idvote-parameters-openapi.md
+- name: Bitbucket - Get Repositories Username Repo Slug Issues Issue  Vote
+  x-api-slug: repositoriesusernamerepo-slugissuesissue-idvote-get
+  description: |-
+    Check whether the authenticated user has voted for this issue.
+    A 204 status code indicates that the user has voted, while a 404
+    implies they haven't.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idvote-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idvote-get-openapi.md
+- name: Bitbucket - Delete Repositories Username Repo Slug Issues Issue  Vote
+  x-api-slug: repositoriesusernamerepo-slugissuesissue-idvote-delete
+  description: Delete repositories username repo slug issues issue  vote
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idvote-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/votes/master/_listings/bitbucket/repositoriesusernamerepo-slugissuesissue-idvote-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://bigoven.api.gallery.streamdata.io
